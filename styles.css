@@ -61,7 +61,7 @@ body {
 }
 
 .sidebar > div {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .sidebar span {
@@ -70,12 +70,12 @@ body {
 
 .sidebar-top {
     margin-top: 5vh;
-    line-height: 3rem;
+    line-height: 2.0rem;
 }
 
 .sidebar-bottom {
     margin-top: 5vh;
-    line-height: 3rem;
+    line-height: 2.0rem;
 }
 
 .sidebar span {
