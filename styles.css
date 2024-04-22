@@ -375,7 +375,7 @@ input {
 
     .container-all {
         display: grid;
-        grid-template-columns: 2fr 4fr;
+        grid-template-columns: 1.9fr 4fr;
         grid-template-rows: 2fr 5fr;
         background-color: white;
         padding: 0;
