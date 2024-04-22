@@ -270,6 +270,37 @@ input {
 .announce-container {
     grid-column: 2/3;
     grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1.5rem 1fr;
+    padding: 3vw 1.5vw;
+}
+
+.announce-container .name-section {
+    grid-row: 1/2;
+    padding-bottom: 2vw;
+    font-size: 1.3rem;
+    font-weight: 600;
+    align-self: center;
+}
+
+.announce-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 4px 6px 0px rgba(74, 55, 4, 0.25);
+    padding: 1.5vw 2vw 1vw 1.5vw;
+    align-items: center;
+}
+
+.announce-body p {
+    font-size: 0.8rem;
+}
+
+.announce-body div:nth-child(-n + 2) {    
+    box-shadow: 0px 1px 0px 0px rgba(182, 180, 176, 0.6);
+
 }
 
 .trending-container {
