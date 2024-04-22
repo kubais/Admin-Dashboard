@@ -238,7 +238,7 @@ input {
 
 .card {
     background-color: white;
-    padding: 2.5vw 2vw 1vw 2vw;
+    padding: 2.5vw 2vw 1vw 2.5vw;
     border-radius: 10px;
     display: grid;
     grid-template-rows: 1.5rem 1.7fr 1fr;
@@ -319,6 +319,7 @@ input {
     grid-template-columns: 1fr ;
     grid-template-rows: 1.5rem 1fr;
     padding: 3vw 1.5vw;
+    align-items: baseline;
 }
 
 .trending-container .name-section {
@@ -335,14 +336,15 @@ input {
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 4px 6px 0px rgba(74, 55, 4, 0.25);
-    padding: 1.5vw 2vw 1vw 1.5vw;
+    padding: 2vw 2vw 2vw 1.5vw;
     align-items: center;
+    gap: 1rem;
 }
 
 .trending-post {
     display: grid;
     grid-template-columns: 3.5vw 1fr;
-    grid-template-rows: 1.2vw 1.2vw;
+    grid-template-rows: 1rem 1.2rem;
     align-items: center;
 }
 
@@ -373,7 +375,7 @@ input {
 
     .container-all {
         display: grid;
-        grid-template-columns: 1.5fr 4fr;
+        grid-template-columns: 2fr 4fr;
         grid-template-rows: 2fr 5fr;
         background-color: white;
         padding: 0;
@@ -391,7 +393,11 @@ input {
     .main {    
         
         grid-template-columns: 1.7fr 1.3fr;
-        grid-template-rows: 2fr, 3fr 1fr;        
+        grid-template-rows: 2fr, 2fr 1fr;        
+    }
+
+    .user-name {
+        font-size: 1.2rem;
     }
 
   
