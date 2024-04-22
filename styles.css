@@ -139,7 +139,7 @@ input {
 }
 
 .top-right img {
-    width: 3vw;
+    width: 2rem;
     grid-column: 3/4;    
     
 }
@@ -162,7 +162,7 @@ input {
 }
 
 .bottom-left img {
-    width: 5vw;
+    width: 3rem;
     grid-column: 1/2;
     grid-row: 1/3;
 }
@@ -355,7 +355,7 @@ input {
 }
 
 .trending-post img {
-    width: 2.5vw;
+    width: 2rem;
     grid-column: 1/2;
     grid-row: 1/3;
 }
