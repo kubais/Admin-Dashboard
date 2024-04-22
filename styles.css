@@ -157,7 +157,7 @@ input {
     display: grid;
     justify-content: left;
     align-items: center;
-    grid-template: 2rem 2rem / 7vw 20vw; 
+    grid-template: 1.5rem 1.5rem / 4rem 20vw; 
     padding-bottom: 1rem;
 }
 
